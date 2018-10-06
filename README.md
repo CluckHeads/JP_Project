@@ -8,10 +8,12 @@ different products.
 
 # Classes with Descriptions
 * Class: Main - Main class that allows the program to run
-* Class: Widget -  A subclass of the Product class, the widget class will name the different products. Starting with widget 1 and increasing
-* Abstract Class: Product - Will implement the basic functionality that all items on a production line should have
+* Class: Widget extends class Product -  A subclass of the Product class, the widget class will name the different products. Starting with widget 1 and increasing
+* Abstract Class: Product implements interface Item - Will implement the basic functionality that all items on a production line should have
 * Interface: Item - Contains constant methods that every "Item" would need to contain
 * Enum: ItemType - Contains the constants that represent the different types of items available for production
+* Class: AudioPlayer extends class Product and implements interface MultimediaControl - contains everthing that a media player will do functionally
+* Interface: MultimediaControl - will allow a media player to play, stop, go to previous, and go to next
 
 # Resources 
 CaveOfProgramming | doc.oracle.com  | Professor Vanselow
